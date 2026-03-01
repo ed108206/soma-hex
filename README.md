@@ -1,4 +1,4 @@
-# Fast CSV Viewer + Splitter
+Fast CSV Viewer (handles millions of rows)
 
 ![CMake Build](https://github.com/ed108206/soma-hex/actions/workflows/cmake-multi-platform.yml/badge.svg)
 
@@ -84,3 +84,4 @@ g++ -O2 -std=c++20 ext/generator.cpp -o generator
 - Running this command generates a file named mydata.csv containing 1,000,000 rows and 10 columns, with an approximate size of 430 MB.
 
 This makes it easy to stress-test the app with big datasets and see how the splitter and views behave under load.
+
