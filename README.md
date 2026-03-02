@@ -82,6 +82,8 @@ g++ -O2 -std=c++20 ext/generator.cpp -o generator
 ./generator 1000000 10 mydata.csv
 ```
 - Running this command generates a file named mydata.csv containing 1,000,000 rows and 10 columns, with an approximate size of 430 MB.
+You can create a file with 50 million or more rows.  
+⚠️ Please make sure you have enough disk space available.
 
 This makes it easy to stress-test the app with big datasets and see how the splitter and views behave under load.
 
