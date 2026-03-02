@@ -1,4 +1,4 @@
-Fast CSV Viewer (handles millions of rows)
+### Fast CSV Viewer (handles millions of rows)
 
 ![CMake Build](https://github.com/ed108206/soma-hex/actions/workflows/cmake-multi-platform.yml/badge.svg)
 
